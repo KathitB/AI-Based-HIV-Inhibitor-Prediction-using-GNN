@@ -1,20 +1,20 @@
-echo "venv_310/
-venv/
-env/
+# Ignore virtual environments
+venv_310/
 __pycache__/
-*.py[cod]
-*.pyo
+
+# Ignore Python compiled files
+*.pyc
 *.pyd
+*.pyo
 *.so
 *.dll
-.ipynb_checkpoints/
-.streamlit/
-.vscode/
-*.log
-*.h5
-*.pt
-*.pkl
-.DS_Store
-Thumbs.db" > .gitignore
 
-venv_310/
+# Ignore model files and logs
+*.h5
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints

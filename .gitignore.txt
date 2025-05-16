@@ -1,0 +1,46 @@
+# Ignore virtual environment
+venv_310/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Environment / dependency files (already tracked separately)
+*.egg-info/
+*.egg
+
+# Model weights or large checkpoints (track via links or cloud)
+*.h5
+*.pt
+*.pkl
+
+# Large datasets or temporary exports
+data/
+datasets/
+output/
+tmp/
