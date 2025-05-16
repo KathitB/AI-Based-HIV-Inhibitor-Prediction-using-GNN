@@ -1,6 +1,6 @@
 # AI-Based-HIV-Inhibitor-Prediction-using-GNN
 
-Here’s a `README.md` file tailored for your **AI-based HIV Inhibitor Prediction** project using **DeepChem**, **SMILES strings**, and **Streamlit**:
+
 
 ---
 
