@@ -1,11 +1,11 @@
-torch==2.3.0  # or latest listed on PyPI
+streamlit==1.45.0
+numpy==1.24.4
+pandas==2.2.3
+scikit-learn==1.3.2
+matplotlib==3.7.4
+tqdm==4.66.2
+tensorflow==2.10.0
+torch==2.3.0
 torch-geometric==2.6.1
 deepchem==2.6.0
-scikit-learn==1.3.2
-pandas==2.2.3
 rdkit-pypi==2022.9.5
-matplotlib==3.7.4
-numpy==1.24.4
-tqdm==4.66.2
-tensorflow==2.9.3
-streamlit==1.45.0
